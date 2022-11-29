@@ -1,1 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1400px;
+  background-color: #fff;
+  font-size: 18px;
+  margin: 0 auto;
+  color: #000;
+}
+
+main {
+  margin: 30px;
+}
+
+.main-head {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+.main-desc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  font-style: italic;
+  color: #4f4f4f;
+  margin: 10px 0;
+}
+
+.main-desc img {
+  margin: 10px 0;
+}
+
+.main-desc {
+  max-width: 610px;
+}
+
+.main-content {
+  margin: 30px 0;
+  width: 81vw;
+  height: 50vw;
+  max-width: 1400px;
+  max-height: 650px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1400px;
+}
+
+.items {
+  order: 1;
+  margin: 30px;
+  color: #333333;
+}
+
+.items h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  margin: 0 0 30px 0;
+}
+
+.item .name {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin: 30px 0;
+}
+
+.step {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.step .procedure {
+  width: 35vw;
+}
+
+.step .rectangle {
+  height: 1rem;
+  width: 1rem;
+  border: 1px solid #828282;
+  border-radius: 4px;
+}
+
+.stats {
+  order: 2;
+  margin: 30px 0;
+  color: #333333;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+
+.yield {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.yield h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  text-transform: uppercase;
+  color: #BDBDBD;
+  margin: 0 0 5px 0;
+}
+
+.yield p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #f2994a;
+}
+
+.times {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.time h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  text-transform: uppercase;
+  color: #BDBDBD;
+  margin: 0 0 5px 0;
+}
+
+.time p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #333;
+}
+
+.instruction {
+  margin: 30px;
+}
+
+.instruction h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  margin: 0 0 30px 0;
+}
+
+.step .rectangle.big {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  height: 2rem;
+  width: 2rem;
+  background-color: #f2994a;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.instruction .step {
+  margin: 30px 0;
+}
+
+@media (max-width: 759px) {
+
+  .main-head {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+  }
+
+  .main-desc {
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+  }
+
+  .main-content {
+    margin: 10px 0;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .stats {
+    padding: 0;
+    margin: 0 auto;
+    box-shadow: none;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .times {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .yield h3 , .time h3 {
+    font-size: 0.6rem;
+    line-height: 0.6rem;
+    
+  }
+  
+  .yield p , .time p {
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+  }
+
+  .step .procedure {
+    width: 100%;
+  }
+
+  .items {
+    margin: 20px 30px;
+  }
+
+  .items h2 , .instruction h2 {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin: 0px;
+  }
+
+  .item .name {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    margin: 20px 0;
+  }
+
+  .step {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    margin: 5px 0;
+  }
+
+  .instruction {
+    margin: 20px 30px;
+  }
+
+  .step .rectangle.big {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+  }
+
+
+}
