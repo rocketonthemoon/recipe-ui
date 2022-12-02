@@ -6,7 +6,7 @@ function Ingredients() {
         <div className="name">Graham Cracker Crust</div>
         <div className="steps">
           <div className="step">
-            <div className="rectangle"></div>
+            <input type="checkbox" className="rectangle"></input>
             <div className="procedure">
               1 and 1/2 cups (150g) <strong>graham cracker crumbs</strong>{" "}
               (about 10 full sheet graham crackers)
@@ -14,14 +14,14 @@ function Ingredients() {
           </div>
 
           <div className="step">
-            <div className="rectangle"></div>
+            <input type="checkbox" className="rectangle"></input>
             <div className="procedure">
               5 Tablespoons (70g) <strong>unsalted butter</strong>, melted
             </div>
           </div>
 
           <div className="step">
-            <div className="rectangle"></div>
+            <input type="checkbox" className="rectangle"></input>
             <div className="procedure">
               1/4 cup (50g) <strong>granulated sugar</strong>
             </div>
@@ -33,7 +33,7 @@ function Ingredients() {
         <div className="name">Cheesecake</div>
         <div className="steps">
           <div className="step">
-            <div className="rectangle"></div>
+            <input type="checkbox" className="rectangle"></input>
             <div className="procedure">
               four 8-ounce blocks (904g) full-fat <strong>cream cheese</strong>,
               softened to room temperature
@@ -41,14 +41,14 @@ function Ingredients() {
           </div>
 
           <div className="step">
-            <div className="rectangle"></div>
+            <input type="checkbox" className="rectangle"></input>{" "}
             <div className="procedure">
               1 cup (200g) <strong>granulated sugar</strong>
             </div>
           </div>
 
           <div className="step">
-            <div className="rectangle"></div>
+            <input type="checkbox" className="rectangle"></input>{" "}
             <div className="procedure">
               1 cup (240g) full-fat <strong>sour cream</strong>, at room
               temperature
@@ -56,14 +56,14 @@ function Ingredients() {
           </div>
 
           <div className="step">
-            <div className="rectangle"></div>
+            <input type="checkbox" className="rectangle"></input>{" "}
             <div className="procedure">
               1 teaspoon <strong>pure vanilla extract</strong>
             </div>
           </div>
 
           <div className="step">
-            <div className="rectangle"></div>
+            <input type="checkbox" className="rectangle"></input>{" "}
             <div className="procedure">
               2 teaspoons <strong>fresh lemon juice</strong> (optional, but
               recommended)
@@ -71,14 +71,14 @@ function Ingredients() {
           </div>
 
           <div className="step">
-            <div className="rectangle"></div>
+            <input type="checkbox" className="rectangle"></input>{" "}
             <div className="procedure">
               3 large <strong>eggs</strong>, at room temperature
             </div>
           </div>
 
           <div className="step">
-            <div className="rectangle"></div>
+            <input type="checkbox" className="rectangle"></input>{" "}
             <div className="procedure">
               topping suggestions:{" "}
               <em>

@@ -218,6 +218,36 @@ main {
   margin: 30px 0;
 }
 
+.instruction .source {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 150%;
+  color: #bdbdbd;
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #828282;
+}
+
+footer a {
+  text-decoration: none;
+  color: #828282;
+}
+
+footer .user {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
 @media (max-width: 759px) {
 
   .main-head {

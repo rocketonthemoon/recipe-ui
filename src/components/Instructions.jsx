@@ -91,6 +91,9 @@ function Instructions() {
           </div>
         </div>
       </div>
+      <div className="source">
+        Source: https://sallysbakingaddiction.com/classic-cheesecake/{" "}
+      </div>
     </div>
   );
 }

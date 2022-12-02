@@ -4,6 +4,7 @@ import Main from "./components/Main";
 import Ingredients from "./components/Ingredients";
 import Stats from "./components/Stats";
 import Instructions from "./components/Instructions";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Ingredients />
       </div>
       <Instructions />
+      <Footer />
     </>
   );
 }
